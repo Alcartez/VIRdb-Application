@@ -1,0 +1,27 @@
+name: app1
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.12.1
+  flutter_appauth: ^0.9.1
+  flutter_secure_storage: ^3.3.3
+  floating_action_bubble: 1.0.9
+  flutter_phoenix: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/img_1.jpeg
+    - images/img_2.jpeg
